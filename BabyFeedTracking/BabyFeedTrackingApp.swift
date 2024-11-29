@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct BabyFeedTrackingApp: App {
+    init() {
+           requestNotificationPermissions()
+       }
     var body: some Scene {
         WindowGroup {
             ContentView()
