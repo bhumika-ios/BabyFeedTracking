@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AC3AF5A32CF99CB9000F78F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC3AF58A2CF99CB7000F78F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC3AF5912CF99CB7000F78F6;
+			remoteInfo = BabyFeedTracking;
+		};
+		AC3AF5AD2CF99CB9000F78F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC3AF58A2CF99CB7000F78F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC3AF5912CF99CB7000F78F6;
+			remoteInfo = BabyFeedTracking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC3AF5922CF99CB7000F78F6 /* BabyFeedTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyFeedTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3AF5A22CF99CB9000F78F6 /* BabyFeedTrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyFeedTrackingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3AF5AC2CF99CB9000F78F6 /* BabyFeedTrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyFeedTrackingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AC3AF5942CF99CB7000F78F6 /* BabyFeedTracking */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BabyFeedTracking;
+			sourceTree = "<group>";
+		};
+		AC3AF5A52CF99CB9000F78F6 /* BabyFeedTrackingTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BabyFeedTrackingTests;
+			sourceTree = "<group>";
+		};
+		AC3AF5AF2CF99CB9000F78F6 /* BabyFeedTrackingUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BabyFeedTrackingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC3AF58F2CF99CB7000F78F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3AF59F2CF99CB9000F78F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3AF5A92CF99CB9000F78F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC3AF5892CF99CB7000F78F6 = {
+			isa = PBXGroup;
+			children = (
+				AC3AF5942CF99CB7000F78F6 /* BabyFeedTracking */,
+				AC3AF5A52CF99CB9000F78F6 /* BabyFeedTrackingTests */,
+				AC3AF5AF2CF99CB9000F78F6 /* BabyFeedTrackingUITests */,
+				AC3AF5932CF99CB7000F78F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC3AF5932CF99CB7000F78F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC3AF5922CF99CB7000F78F6 /* BabyFeedTracking.app */,
+				AC3AF5A22CF99CB9000F78F6 /* BabyFeedTrackingTests.xctest */,
+				AC3AF5AC2CF99CB9000F78F6 /* BabyFeedTrackingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC3AF5912CF99CB7000F78F6 /* BabyFeedTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3AF5B62CF99CB9000F78F6 /* Build configuration list for PBXNativeTarget "BabyFeedTracking" */;
+			buildPhases = (
+				AC3AF58E2CF99CB7000F78F6 /* Sources */,
+				AC3AF58F2CF99CB7000F78F6 /* Frameworks */,
+				AC3AF5902CF99CB7000F78F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AC3AF5942CF99CB7000F78F6 /* BabyFeedTracking */,
+			);
+			name = BabyFeedTracking;
+			packageProductDependencies = (
+			);
+			productName = BabyFeedTracking;
+			productReference = AC3AF5922CF99CB7000F78F6 /* BabyFeedTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC3AF5A12CF99CB9000F78F6 /* BabyFeedTrackingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3AF5B92CF99CB9000F78F6 /* Build configuration list for PBXNativeTarget "BabyFeedTrackingTests" */;
+			buildPhases = (
+				AC3AF59E2CF99CB9000F78F6 /* Sources */,
+				AC3AF59F2CF99CB9000F78F6 /* Frameworks */,
+				AC3AF5A02CF99CB9000F78F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC3AF5A42CF99CB9000F78F6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AC3AF5A52CF99CB9000F78F6 /* BabyFeedTrackingTests */,
+			);
+			name = BabyFeedTrackingTests;
+			packageProductDependencies = (
+			);
+			productName = BabyFeedTrackingTests;
+			productReference = AC3AF5A22CF99CB9000F78F6 /* BabyFeedTrackingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC3AF5AB2CF99CB9000F78F6 /* BabyFeedTrackingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3AF5BC2CF99CB9000F78F6 /* Build configuration list for PBXNativeTarget "BabyFeedTrackingUITests" */;
+			buildPhases = (
+				AC3AF5A82CF99CB9000F78F6 /* Sources */,
+				AC3AF5A92CF99CB9000F78F6 /* Frameworks */,
+				AC3AF5AA2CF99CB9000F78F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC3AF5AE2CF99CB9000F78F6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AC3AF5AF2CF99CB9000F78F6 /* BabyFeedTrackingUITests */,
+			);
+			name = BabyFeedTrackingUITests;
+			packageProductDependencies = (
+			);
+			productName = BabyFeedTrackingUITests;
+			productReference = AC3AF5AC2CF99CB9000F78F6 /* BabyFeedTrackingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC3AF58A2CF99CB7000F78F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					AC3AF5912CF99CB7000F78F6 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					AC3AF5A12CF99CB9000F78F6 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = AC3AF5912CF99CB7000F78F6;
+					};
+					AC3AF5AB2CF99CB9000F78F6 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = AC3AF5912CF99CB7000F78F6;
+					};
+				};
+			};
+			buildConfigurationList = AC3AF58D2CF99CB7000F78F6 /* Build configuration list for PBXProject "BabyFeedTracking" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC3AF5892CF99CB7000F78F6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AC3AF5932CF99CB7000F78F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC3AF5912CF99CB7000F78F6 /* BabyFeedTracking */,
+				AC3AF5A12CF99CB9000F78F6 /* BabyFeedTrackingTests */,
+				AC3AF5AB2CF99CB9000F78F6 /* BabyFeedTrackingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC3AF5902CF99CB7000F78F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3AF5A02CF99CB9000F78F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3AF5AA2CF99CB9000F78F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC3AF58E2CF99CB7000F78F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3AF59E2CF99CB9000F78F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3AF5A82CF99CB9000F78F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC3AF5A42CF99CB9000F78F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC3AF5912CF99CB7000F78F6 /* BabyFeedTracking */;
+			targetProxy = AC3AF5A32CF99CB9000F78F6 /* PBXContainerItemProxy */;
+		};
+		AC3AF5AE2CF99CB9000F78F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC3AF5912CF99CB7000F78F6 /* BabyFeedTracking */;
+			targetProxy = AC3AF5AD2CF99CB9000F78F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC3AF5B42CF99CB9000F78F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC3AF5B52CF99CB9000F78F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC3AF5B72CF99CB9000F78F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BabyFeedTracking/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jbcodeapp.BabyFeedTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC3AF5B82CF99CB9000F78F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BabyFeedTracking/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jbcodeapp.BabyFeedTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC3AF5BA2CF99CB9000F78F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jbcodeapp.BabyFeedTrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyFeedTracking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BabyFeedTracking";
+			};
+			name = Debug;
+		};
+		AC3AF5BB2CF99CB9000F78F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jbcodeapp.BabyFeedTrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyFeedTracking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BabyFeedTracking";
+			};
+			name = Release;
+		};
+		AC3AF5BD2CF99CB9000F78F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jbcodeapp.BabyFeedTrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabyFeedTracking;
+			};
+			name = Debug;
+		};
+		AC3AF5BE2CF99CB9000F78F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jbcodeapp.BabyFeedTrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabyFeedTracking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC3AF58D2CF99CB7000F78F6 /* Build configuration list for PBXProject "BabyFeedTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3AF5B42CF99CB9000F78F6 /* Debug */,
+				AC3AF5B52CF99CB9000F78F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3AF5B62CF99CB9000F78F6 /* Build configuration list for PBXNativeTarget "BabyFeedTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3AF5B72CF99CB9000F78F6 /* Debug */,
+				AC3AF5B82CF99CB9000F78F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3AF5B92CF99CB9000F78F6 /* Build configuration list for PBXNativeTarget "BabyFeedTrackingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3AF5BA2CF99CB9000F78F6 /* Debug */,
+				AC3AF5BB2CF99CB9000F78F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3AF5BC2CF99CB9000F78F6 /* Build configuration list for PBXNativeTarget "BabyFeedTrackingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3AF5BD2CF99CB9000F78F6 /* Debug */,
+				AC3AF5BE2CF99CB9000F78F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC3AF58A2CF99CB7000F78F6 /* Project object */;
+}
